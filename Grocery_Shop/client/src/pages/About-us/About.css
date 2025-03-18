@@ -1,0 +1,87 @@
+/* General Styling */
+.about-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('/assets/grocery-banner.jpg') no-repeat center center/cover;
+    color: black;
+    padding: 60px 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* About Section */
+  .about-content {
+    margin: 40px 0;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    color: #27ae60;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  
+  /* Team Section */
+  .team {
+    margin-top: 40px;
+  }
+  
+  .team h2 {
+    font-size: 2rem;
+    color: #27ae60;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .member {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .member h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  
+  .member p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
