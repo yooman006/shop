@@ -40,6 +40,7 @@ const orderSchema = new mongoose.Schema(
             type: String,
             enum: ["PENDING", "PAID", "CASH ON DELIVERY", "FAILED"],
             default: "PENDING",
+            set: (v) => v.toUpperCase(),
         },
         delivery_address: {
             type: mongoose.Schema.ObjectId,
